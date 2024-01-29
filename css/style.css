@@ -48,6 +48,10 @@ body{
     align-items: center;
 }
 
+.maar{
+    cursor: pointer;
+}
+
 .nArea{
     width: 50%;
     box-shadow: 1px 1px 20px rgb(216, 216, 216);

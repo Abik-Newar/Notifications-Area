@@ -26,15 +26,15 @@
           <div class="notify">
             <h3>Notifications</h3>
             <div class="non">
-              <h4>3</h4>
+              <h4 id="nonValue">3</h4>
             </div>
           </div>
 
-          <p>Mark all as read</p>
+          <p class="maar" id="MarkAllAsRead">Mark all as read</p>
         </div>
 
         <div class="actualnotify">
-          <div class="notifybox activeNotify">
+          <div class="notifybox activeNotify" id="activeNotify">
             <div class="avatar">
               <img src="assets/images/avatar-mark-webber.webp" alt="mark" />
             </div>
@@ -46,14 +46,14 @@
                   recent post
                   <span class="boldText">My first tournament today!</span>
                 </p>
-                <div class="activeN"></div>
+                <div class="activeN" id="redActive"></div>
               </div>
 
               <p class="time">1m ago</p>
             </div>
           </div>
 
-          <div class="notifybox activeNotify">
+          <div class="notifybox activeNotify" id="activeNotify1">
             <div class="avatar">
               <img src="assets/images/avatar-angela-gray.webp" alt="angela" />
             </div>
@@ -61,14 +61,14 @@
             <div class="text">
               <div class="alert">
                 <p><span class="profile">Angela Gray</span> followed you</p>
-                <div class="activeN"></div>
+                <div class="activeN" id="redActive1"></div>
               </div>
 
               <p class="time">5m ago</p>
             </div>
           </div>
 
-          <div class="notifybox activeNotify">
+          <div class="notifybox activeNotify" id="activeNotify2">
             <div class="avatar">
               <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob" />
             </div>
@@ -79,7 +79,7 @@
                   <span class="profile">Jacob Thompson</span> has joined your
                   group <span class="pages">Chess Club</span>
                 </p>
-                <div class="activeN"></div>
+                <div class="activeN" id="redActive2"></div>
               </div>
 
               <p class="time">1 day ago</p>
@@ -182,5 +182,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
